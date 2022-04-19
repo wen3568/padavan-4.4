@@ -436,12 +436,12 @@ struct nvram_pair router_defaults[] = {
 	{ "ip6_wan_size", "64" },
 	{ "ip6_wan_gate", "" },
 
-	{ "ip6_dns_auto", "0" },
+	{ "ip6_dns_auto", "1" },
 	{ "ip6_dns1", "" },
 	{ "ip6_dns2", "" },
 	{ "ip6_dns3", "" },
 
-	{ "ip6_lan_auto", "0" },
+	{ "ip6_lan_auto", "1" },
 	{ "ip6_lan_addr", "" },
 	{ "ip6_lan_size", "64" },
 	{ "ip6_lan_radv", "1" },
